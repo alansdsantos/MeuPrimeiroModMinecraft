@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[0.14,)"
+license="MIT"
+
+[[mods]]
+modId="meuprimeiromod"
+version="${mod_version}"
+displayName="${mod_name}"
+description='''${mod_description}'''
+logoFile="logo.png"
+credits="Criado como primeiro mod de Minecraft"
+authors="${mod_authors}"
+
+[[dependencies.meuprimeiromod]]
+modId="forge"
+mandatory=true
+versionRange="${forge_version_range}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.meuprimeiromod]]
+modId="minecraft"
+mandatory=true
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"

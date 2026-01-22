@@ -1,0 +1,45 @@
+================================================================================
+    MEU PRIMEIRO MOD MINECRAFT - INICIO RAPIDO
+================================================================================
+
+PASSO 1: INSTALAR JAVA 17
+--------------------------
+1. Baixe em: https://adoptium.net/temurin/releases/
+2. Selecione: Version 17, Windows, x64, JDK
+3. Instale (marque "Add to PATH" se aparecer)
+4. REINICIE O CURSOR
+
+PASSO 2: COMPILAR O MOD
+------------------------
+Execute no terminal do Cursor:
+
+    .\compilar.bat
+
+OU manualmente:
+
+    .\gradlew.bat build
+
+Aguarde alguns minutos (primeira vez baixa tudo)
+
+PASSO 3: ENCONTRAR O JAR
+-------------------------
+O arquivo estara em:
+
+    build\libs\meuprimeiromod-1.0.0.jar
+
+PASSO 4: INSTALAR NO MINECRAFT
+-------------------------------
+1. Instale Forge 47.2.0 para Minecraft 1.20.1:
+   https://files.minecraftforge.net/net/minecraftforge/forge/
+
+2. Copie o JAR para:
+   %appdata%\.minecraft\mods\
+
+3. Inicie o Minecraft com o perfil Forge
+
+4. Teste no jogo:
+   /give @s meuprimeiromod:meu_primeiro_item
+
+================================================================================
+Para mais detalhes, veja: COMPILAR_MOD.md
+================================================================================
